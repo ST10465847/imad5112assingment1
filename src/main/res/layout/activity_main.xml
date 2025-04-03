@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="151dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="56dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Submit"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="153dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="56dp"
+        android:text="Reset"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/timeText"
+        android:layout_width="315dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:fontFamily="@font/almendra_bold"
+        android:textColor="#EDEBEB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/faster_one"
+        android:text="FLAVOR FLASH"
+        android:textColor="#FF9800"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057"
+        tools:layout_editor_absoluteX="4dp" />
+
+    <TextView
+        android:id="@+id/mealText"
+        android:layout_width="384dp"
+        android:layout_height="370dp"
+        android:layout_marginBottom="176dp"
+        android:fontFamily="@font/fascinate_inline"
+        android:text="TextView"
+        android:textColor="#FFFEFE"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
